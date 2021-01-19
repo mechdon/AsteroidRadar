@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小惑星レーダー</string>
+    <string name="next_week_asteroids">週の小惑星を見る</string>
+    <string name="today_asteroids">今日小惑星を見る</string>
+    <string name="saved_asteroids">保存された小惑星を見る</string>
+    <string name="close_approach_data_title">アプローチ日を閉じる</string>
+    <string name="absolute_magnitude_title">絶対等級</string>
+    <string name="estimated_diameter_title">推定直径</string>
+    <string name="relative_velocity_title">相対速度</string>
+    <string name="distance_from_earth_title">地球からの距離</string>
+    <string name="astronomical_unit_format">%f au</string>
+    <string name="km_unit_format">%f km</string>
+    <string name="km_s_unit_format">%f km/s</string>
+    <string name="image_of_the_day">今日の画像</string>
+    <string name="astronomica_unit_explanation">天文単位（au）は長さの単位で、地球から太陽までの距離はおよそ1億5000万キロメートル（9300万マイル）に相当します。</string>
+    <string name="astronomical_unit_explanation_button">天文単位の定義</string>
+    <string name="potentially_hazardous_asteroid_image">潜在的に危険な小惑星の画像</string>
+    <string name="not_hazardous_asteroid_image">危険ではない小惑星の画像</string>
+    <string name="this_is_nasa_s_picture_of_day_showing_nothing_yet">これはNASAの日の写真で、まだ何も表示されていません</string>
+    <string name="nasa_picture_of_day_content_description_format">NASAの日の写真: %s</string>
+    <string name="placeholder_title">68347 (2001 KB67)</string>
+    <string name="placeholder_subtitle">2020-02-08</string>
+    <string name="detail_image">小惑星の詳細画像</string>
+</resources>
