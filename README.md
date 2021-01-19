@@ -10,10 +10,10 @@ The app consists of two screens: A Main screen with a list of all the detected a
 
 ### Screenshots
 
-![Screenshot 1](starter/screenshots/screen_1.png)
-![Screenshot 2](starter/screenshots/screen_2.png)
-![Screenshot 3](starter/screenshots/screen_3.png)
-![Screenshot 4](starter/screenshots/screen_4.png)
+![Screenshot 1](https://github.com/mechdon/AsteroidRadar/blob/master/screenshots/screen_1.png)
+![Screenshot 2](https://github.com/mechdon/AsteroidRadar/blob/master/screenshots/screen_2.png)
+![Screenshot 3](https://github.com/mechdon/AsteroidRadar/blob/master/screenshots/screen_3.png)
+![Screenshot 4](https://github.com/mechdon/AsteroidRadar/blob/master/screenshots/screen_4.png)
 
 ### Dependencies
 
