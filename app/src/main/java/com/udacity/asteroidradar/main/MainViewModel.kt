@@ -3,6 +3,7 @@ package com.udacity.asteroidradar.main
 import android.app.Application
 import androidx.lifecycle.*
 import com.udacity.asteroidradar.Asteroid
+import com.udacity.asteroidradar.BuildConfig
 import com.udacity.asteroidradar.Constants
 import com.udacity.asteroidradar.PictureOfDay
 import com.udacity.asteroidradar.api.Network
@@ -55,7 +56,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     suspend fun getPictureOfDay(): PictureOfDay? {
         var pictureOfDay = PictureOfDay("", "", "")
         withContext(Dispatchers.IO){
-            pictureOfDay = Network.retrofitService.getPictureOfDay(Constants.API_KEY).await()
+            pictureOfDay = Network.retrofitService.getPictureOfDay(BuildConfig.API_KEY).await()
         }
         if(pictureOfDay.mediaType == "image"){
             return pictureOfDay
